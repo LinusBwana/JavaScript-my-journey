@@ -1,0 +1,62 @@
+body{
+    background: hsl(0, 0%, 88%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: hsl(238, 89%, 47%);
+    font-size: 25px;
+    font-weight: bold;
+    font-style: oblique;
+    margin: 0px, 5px;
+}
+
+form{
+    background-color: aqua;
+    max-width: 350px;
+    text-align: center;
+    /* margin: auto; */
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px hsl(0, 98%, 52%);
+}
+
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgb(126, 73, 73);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+button{
+    margin-top: 5px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: hsl(0, 100%, 60%);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:  hsl(0, 90%, 38%);
+}
+
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+}
