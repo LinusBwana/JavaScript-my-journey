@@ -1,0 +1,60 @@
+body{
+    background: hsl(0, 0%, 88%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: aqua;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: 5px 5px 15px hsl(235, 72%, 60%);
+}
+
+#innerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background-color: lch(70.37% 48.52 24.42);
+    border-radius: 15px;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(210, 100%, 50%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(210, 100%, 60%);
+}
+button:active{
+    background-color: hsl(210, 100%, 70%);
+}
+
+input{
+    font-size: 2rem;
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#diceResults{
+    margin: 25px;
+}
+
+#diceImages img{
+    margin: 5px;
+    width: 60px;
+}
