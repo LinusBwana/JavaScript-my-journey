@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+}
+
+#myImage {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+#myButton {
+    font-size: 3rem;
+    margin-top: 5px;
+}
